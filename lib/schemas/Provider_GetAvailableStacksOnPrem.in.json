@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "osTypeSelected": {
+            "type": "string",
+            "enum": [
+                "Windows",
+                "Linux",
+                "WindowsFunctions",
+                "LinuxFunctions"
+            ]
+        },
+        "subscriptionId": {
+            "required": true,
+            "type": "string"
+        },
+        "api_version": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
